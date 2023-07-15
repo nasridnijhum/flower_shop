@@ -1,0 +1,172 @@
+/* ***********Header Section Start************ */
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;  
+    align-items: center;
+    background-color: #FCEEF1;
+}
+.flower-img{
+    width: 400px;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.description{
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: #7C7778;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #E55473;;
+    color: white;
+    border: none;border-radius: 4px;
+    cursor: pointer;
+}
+
+/* *************Sale Section start************ */
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    padding: 10px 180px;
+    background-color: #FCEEF1;
+    margin: 100px 0;
+}
+.sale-content{
+    text-align: center;
+}
+.rose-img{
+    width: 200px;
+}
+.sale-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.red{
+    color: #E55473;
+}
+.sale-description{
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #7C7778;
+}
+.btn1{
+    padding: 10px 20px;
+    background-color: #E55473;;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ***********Sale Section End**************** */
+
+
+/* ********Instagram Section Start********* */
+.instagram{
+    margin: 10px 20px 10px 20px;
+}
+.container3{
+    justify-content: space-around;
+    height: 10vh;
+    margin: 40px 60px 40px 60px;
+}
+.insta-content{
+    text-align: center;
+}
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 40px 40px 40px;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.insta-description{
+    font-size: 16px;
+    color: #7C7778;
+    margin-bottom: 10px;
+}
+.boxes{
+        flex: 10%;
+        padding: 5px;
+}
+/* *********Instagram Section End********** */
+
+
+/* *********Latest Section Start********* */
+.container4{
+    background-image: url("./images/Rectangle 9.png");
+    height: 340px;
+    margin: 40px 60px 40px 60px;
+}
+.text-details{
+    text-align: center;
+    padding-top: 40px;
+}
+.latest-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+.texts{
+    color: #7C7778;
+}
+.form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+}
+.form-box{
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-secondary{
+    background-color: #E55473;
+    color: #FCEEF1;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-secondary::hover{
+    color: #7C7778;
+}
+/* **********Latest Section End********** */
+
+
+/* **********Footer Section Start********* */
+.footer{
+    background-color: black;
+    height: 40vh;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-heading{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+.red1{
+    color: #E55473;
+}
+.footer-text{
+    color: white;
+    line-height: 1.8;
+}
+.copyright{
+    color: #7C7778;
+}
+/* **********Footer Section Start********* */
